@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crop Pred</title>
+	<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+<body>
+<h3>Crop Recommendation Based on Soil Condition</h3>
+<div>
+<form action="/" method="POST">
+	<input type="text" name="N" required>Enter Nitrogen Value</input>
+	<br>
+	<input type="text" name="K" required>Enter Potassium Value</input>
+	<br>
+	<input type="text" name="P" required>Enter Phosphorus Value</input>
+	<br>
+	<input type="text" name="R" required>Enter Rainfall Value</input>
+	<br>
+	<input type="text" name="A" required>Enter Acidity Value</input>
+	<br>
+	<input type="text" name="C" required>Enter City name</input>
+	<input type="submit" value="Predict">
+</form>
+</div>
+<p>You should grow {{ans}} </p>
+
+</body>
+</html>
